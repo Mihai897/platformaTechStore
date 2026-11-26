@@ -1,7 +1,7 @@
 export const produse = [
   {
     id:1,
-    img: "/produse/laptop.avif",
+    img: "produse/laptop.avif",
     rating: 4.9,
     nr_recenzii: 42,
     nume: "Apex AI Studio Laptop Pro 16",
@@ -15,7 +15,7 @@ export const produse = [
   },
   {
     id:2,
-    img: "/produse/monitor.avif",
+    img: "produse/monitor.avif",
     rating: 5,
     nr_recenzii: 89,
     nume: "CyberStudio Display 8K Ultra",
@@ -29,7 +29,7 @@ export const produse = [
   },
   {
     id:3,
-    img: "/produse/casti.avif",
+    img: "produse/casti.avif",
     rating: 4.8,
     nr_recenzii: 128,
     nume: "Quantum Earbuds ANC Pro",
@@ -43,7 +43,7 @@ export const produse = [
   },
   {
     id:4,
-    img: "/produse/telefon.avif",
+    img: "produse/telefon.avif",
     rating: 4.9,
     nr_recenzii: 210,
     nume: "Phone 16 Pro Max Titanium 512GB",
@@ -57,7 +57,7 @@ export const produse = [
   },
   {
     id:5,
-    img: "/produse/tastatura.avif",
+    img: "produse/tastatura.avif",
     rating: 4.7,
     nr_recenzii: 35,
     nume: "MechKeyboard Studio Wireless",
@@ -71,7 +71,7 @@ export const produse = [
   },
   {
     id:6,
-    img: "/produse/mouse.avif",
+    img: "produse/mouse.avif",
     rating: 4.8,
     nr_recenzii: 95,
     nume: "AeroMouse Gaming Light 49g",
@@ -85,7 +85,7 @@ export const produse = [
   },
   {
     id:7,
-    img: "/produse/boxe.avif",
+    img: "produse/boxe.avif",
     rating: 4.9,
     nr_recenzii: 64,
     nume: "SoundBar Cinema 5.1 Surround",

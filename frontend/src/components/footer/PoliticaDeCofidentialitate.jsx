@@ -149,7 +149,14 @@ const PoliticaDeCofidentialitate = () => {
             {
               sectiunile.map(s=>(
                 <li key={s.id} className=''>
-                  <a onClick={()=>setSelectSection(s.id)} href={`#${s.sectiunea}`} className='cursor-pointer'>
+                  <a href={`#${s.sectiunea}`}
+                   onClick={(e)=>{
+                    e.preventDefault();
+                    setSelectSection(s.id);
+                    document.getElementById(s.sectiunea)?.scrollIntoView()
+                   }} 
+                   
+                   className='cursor-pointer'>
                     <p className={`${selectSection===s.id? 'text-grad':"text-text_principal"} hover:text-grad transition-all duration-300 ease-in-out px-3 py-1.5`}>{s.nume}</p>
                   </a>
                 </li>

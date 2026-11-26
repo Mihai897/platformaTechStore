@@ -32,7 +32,7 @@ const Swipe = () => {
 
 
           <div className='w-1/2 max-modf:w-full'>
-            <img className='w-full h-80 rounded-lg' src='/produse/apexprolaptop.avif'/>
+            <img className='w-full h-80 rounded-lg' src='produse/apexprolaptop.avif'/>
           </div>
         </div>
 

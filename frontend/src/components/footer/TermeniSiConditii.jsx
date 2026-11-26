@@ -101,7 +101,11 @@ const TermeniSiConditii = () => {
               {
                 sectiuni.map(s=>(
                   <li key={s.id} >
-                    <a href={`#${s.sectiunea}`} onClick={()=>setSelectSectiune(s.id)} className='cursor-pointer  ' >
+                    <a href={`#${s.sectiunea}`} onClick={(e)=>{
+                      e.preventDefault();
+                      setSelectSectiune(s.id);
+                      document.getElementById(s.sectiunea)?.scrollIntoView()
+                    }} className='cursor-pointer  ' >
                       <p className={`px-3 hover:text-grad transition-all duration-300 ease-in-out ${selectSectiune ===s.id?"text-grad":"text-text_secundar"}`}>{s.nume}</p>
                     </a>
                   </li>
